@@ -2,6 +2,9 @@
 
 A simple reinforcement learning setup to train an AI to play Super Mario Bros using OpenAI Gym.
 
+## Run This First
+.\.venv\Scripts\activate
+
 ## 🔧 Setup Instructions
 
 ### 1. Create & Activate a Virtual Environment (Recommended)
@@ -9,7 +12,7 @@ A simple reinforcement learning setup to train an AI to play Super Mario Bros us
 ```bash
 # Windows
 python -m venv mario-rl
-.\mario-rl\Scripts\activate
+.\.venv\Scripts\activate
 
 # macOS/Linux
 python3 -m venv mario-rl
