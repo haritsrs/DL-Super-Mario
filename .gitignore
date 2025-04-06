@@ -1,0 +1,51 @@
+# ===============================
+# Python cache and compiled files
+# ===============================
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+
+# ===============================
+# Virtual Environment folders
+# ===============================
+include/
+lib/
+Scripts/
+pyvenv.cfg
+share/
+ENV/
+env/
+venv/
+.venv/
+*.virtualenv
+
+# ===============================
+# VSCode and IDE junk
+# ===============================
+.vscode/
+*.code-workspace
+
+# ===============================
+# Jupyter/Notebook
+# ===============================
+.ipynb_checkpoints/
+
+# ===============================
+# OS/System files
+# ===============================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ===============================
+# Training Artifacts / Logs
+# ===============================
+checkpoints/
+logs/
+models/
+*.log
+wandb/
+runs/
