@@ -1,4 +1,4 @@
-# 🕹️ Super Mario RL Agent
+# 🕹️ Super Mario RL-37
 
 Train a reinforcement learning agent to beat Super Mario Bros using PPO + reward shaping + vectorized environments.
 
