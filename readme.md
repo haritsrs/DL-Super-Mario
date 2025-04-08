@@ -1,26 +1,28 @@
-# 🕹️ Super Mario RL Project
+# 🕹️ Super Mario RL Agent
 
-A simple reinforcement learning setup to train an AI to play Super Mario Bros using OpenAI Gym.
+Train a reinforcement learning agent to beat Super Mario Bros using PPO + reward shaping + vectorized environments.
 
-## Run This First
-.\.venv\Scripts\activate
+---
 
-## 🔧 Setup Instructions
+## 🧠 Features
 
-### 1. Create & Activate a Virtual Environment (Recommended)
+- Complex movement (run, jump, duck, etc)
+- Reward shaping for progress, success, and penalty on death
+- TensorBoard logging
+- Parallel environment training (8 envs)
+- Video evaluation & checkpoints
+
+---
+
+## ⚙️ Setup
+
+### 1. Create Virtual Environment
 
 ```bash
 # Windows
 python -m venv mario-rl
-.\.venv\Scripts\activate
+mario-rl\Scripts\activate
 
 # macOS/Linux
 python3 -m venv mario-rl
 source mario-rl/bin/activate
-
-### 2. Install Dependencies
-
-pip install -r requirements.txt
-
-### 3. Run the Game
-python rlmario.py
