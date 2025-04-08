@@ -1,6 +1,7 @@
 # 🕹️ Super Mario RL-37
 
 Train a reinforcement learning agent to beat Super Mario Bros using PPO + reward shaping + vectorized environments.
+Why 37? Because the first iteration of the ai that finished was number 37. You'll be in our hearts forever
 
 ---
 
