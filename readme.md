@@ -38,4 +38,5 @@ python -m scripts.train
 python -m scripts.evaluate
 
 ## 📈 TensorBoard
+for logging
 tensorboard --logdir=./tensorboard_logs
